@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial' , sans-serif;
+    color: #ffffff;
+    background-color: #121212;
+    line-height: 1.6;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+nav ul {
+list-style-type: none;
+}
+
+nav ul li {
+display: inline;
+margin-right: 20px;
+}
+
+nav ul li a {
+color: rgb(170, 168, 152);
+text-decoration: none;
+}
+nav ul li a:hover {
+    color: #00ff40;
+    text-decoration: underline;
+}
+
+h1, h2 {
+    margin-bottom: 0.5rem;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 100%;
+    background-color: teal;
+    border-radius: 8px;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff5f6d, #ffc371);
+    text-align: center;
+    color:teal;
+}
+.hero h2 {
+    font-size: 2.5em;
+    color: teal;
+}
+form {
+display: inline-block;
+width: 80%;
+max-width: 400px;
+}
+
+form input, form textarea {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+label {
+    margin-top: 1rem;
+}
+
+
+button {
+    margin-top: 1rem;
+    background-color: #0000ff;
+    color: #e0ffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:focus {
+    outline: 2px solid #00ff40;
+    outline-offset: 2px;
+} 
+
+button:hover {
+    background-color: #00ff40;
+}
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00ff40;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: double;
+    font-size: 13px;
+    display:block;
+    z-index: 1000;
+}
+#return-to-top:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #1e1e1e;
+    color: #d3d3d3;
+    margin-top: 2rem;
+}
+/*Mobile devices (max width of 600px)*/
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }  
+  header h1 {
+    font-size: 24px;
+  }
+}
