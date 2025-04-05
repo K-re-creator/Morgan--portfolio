@@ -1,5 +1,4 @@
-
-Zain Morgan Mwashi Personal Website
+Morgan Mwashi Personal Website
 
 Description
 This is a personal website showcasing my skills, projects, and contact information. It includes sections like About Me, Skills, Projects, and Contact.
